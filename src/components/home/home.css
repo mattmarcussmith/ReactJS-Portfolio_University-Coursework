@@ -57,8 +57,6 @@
   background-repeat: no-repeat;
   background-position: bottom top;
   background-size: cover;
-
-  box-shadow: inset 20px 10px 0 300px rgb(255, 255, 255, .2);
   order: 1;
   justify-self: center;
   width: 300px;
