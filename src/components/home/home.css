@@ -55,7 +55,7 @@
 .home__img {
   background: url(../../assets//profile.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom top;
   background-size: cover;
 
   box-shadow: inset 20px 10px 0 300px rgb(255, 255, 255, .2);
