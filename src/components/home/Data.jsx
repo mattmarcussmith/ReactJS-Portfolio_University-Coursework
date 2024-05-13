@@ -10,10 +10,11 @@ const Data = () => {
 
       <h3 className="home__subtitle">ASP.NET Web API Developer</h3>
           <p className="home__description">
-           I am a recent Software Engineering graduate. I started building user interfaces but later developed a passion for building robust APIs and swiched my majors concentration to C# and Azure.
+           I am a recent Software Engineering graduate.<br />
+           <span> I started building user interfaces but later developed a passion for building robust APIs and swiched my majors concentration to C# and Azure.</span>
             
-      </p>
-
+    
+           </p>
       <a href="#contact" className="button button--flex">
         Available for work
         <svg

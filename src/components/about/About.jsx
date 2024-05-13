@@ -15,7 +15,8 @@ const About = () => {
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                 I experience developing APIs with seamless communication integration and robust error handling. I am proficient in implementing diverse Design Patterns to guarantee scalable and maintainable code structures. Additionally, I have hands-on experience in Azure deployment for efficient cloud integration.            </p>
+                      I have experience developing APIs with seamless communication integration and robust error handling. I am proficient in implementing diverse Design Patterns to guarantee scalable and maintainable code structures.
+                      Additionally, I have hands-on experience in Azure deployment for efficient cloud integration.</p>
 
                 <a download="" href={CV} className="button button--flex">Download CV
                 

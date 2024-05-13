@@ -47,10 +47,11 @@
   top: 1rem;
   left: 0;
 }
-.home__description {
-  max-width: 400px;
-  margin-bottom: var(--mb-3);
+.home__descripion {
+    max-width: 400px;
+   
 }
+
 
 .home__img {
   background: url(../../assets//profile.jpg);
@@ -96,7 +97,7 @@
       }
       .home__description {
         max-width: initial;
-        margin-bottom: var(--mb-2-5);
+        margin-bottom: 2rem;
       }
       .home__img {
         width: 250px;
@@ -128,6 +129,7 @@
     .home__scroll {
         display: none;
     }
+  
 }
 
 
