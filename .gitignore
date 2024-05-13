@@ -1,52 +1,85 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore OS generated files #
+##############################
+.DS_Store
+Thumbs.db
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Ignore Visual Studio Code files #
+###################################
+.vscode/
 
-# testing
-/coverage
+# Ignore Visual Studio files #
+##############################
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.sln.docstates
+*_i.c
+*_p.c
+*.ilk
+*.pdb
+*.ipch
+*.ncb
+*.sdf
+*.opensdf
+*.cachefile
+*.log
+*.sqlite
+*.slnx.sqlite
+*.cache
+*.nupkg
+*.suo
+*.user
+*.log
+*.sqlite
+*.logxml
+*.opendb
 
-# production
+# Ignore Node.js dependencies #
+###############################
+node_modules/
+
+# Ignore build output #
+#######################
 /build
 
-# misc
-.DS_Store
+# Ignore test coverage reports #
+###############################
+coverage/
+
+# Ignore environment variables #
+###############################
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Ignore package lock files #
+##############################
+package-lock.json
+yarn.lock
+
+# Ignore IDE specific settings #
+###############################
+.idea/
+*.iml
+.vscode/
+
+# Ignore log files #
+####################
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-# Node.js dependencies
-/node_modules
 
-# Compiled files
-/build
-/dist
-
-# Visual Studio Code directory
-.vscode
-
-# Visual Studio directory
-.vs
-
-# macOS system files
+# Ignore user-specific files #
+##############################
+*.swp
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Editor-specific files
-*.suo
-*.ntvs*
-*.njsproj.user
-*.sln.docstates
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# User-specific files
-*.log
-*.lock
+# Ignore yarn integrity file #
+##############################
+.yarn-integrity
