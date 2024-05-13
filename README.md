@@ -21,6 +21,6 @@ Showcasing API Development, Diagrams, and Swagger UI for testing the endpoints.
 ![Portfolio Section](src/assets/portfolio-section-picture.PNG)
 
 ## What team members have said about me:
-In this section, recent team members from my previous Internship at Bosch Automotive Service Solutions write a review of my work ethic, proficiencies, and challenges I have overcome.
+In this section, team members from my previous Internship at Bosch Automotive Service Solutions wrote a review of my work ethic, proficiencies, and challenges overcome.
 
 ![Reference Section](src/assets/developer-references-pictures.PNG)
