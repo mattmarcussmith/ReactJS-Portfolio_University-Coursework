@@ -1,7 +1,11 @@
+.about {
+    margin-top: 10rem;
+}
 .about__container {
     grid-template-columns: 1fr;
     align-items: center;
     column-gap: 4rem;
+   
 }
 .about__img {
     width: 350px;
