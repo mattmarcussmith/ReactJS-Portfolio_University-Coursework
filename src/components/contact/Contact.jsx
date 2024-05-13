@@ -21,10 +21,10 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact me</span>
+      <span className="section__subtitle">Response within two business days</span>
 
       <div className="contact__content">
-        <h3 className="contact__title">Write me your project</h3>
+        <h3 className="contact__title">Tell me more about the opportunity</h3>
         <form ref={form} onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-div">
             <label htmlFor="" className="contact__form-tag">
@@ -34,30 +34,30 @@ const Contact = () => {
               type="text"
               name="name"
               className="contact__form-input"
-              placeholder="insert your name"
+              placeholder="Name"
             />
           </div>
           <div className="contact__form-div">
             <label htmlFor="" className="contact__form-tag">
-              Mail
+              Email
             </label>
             <input
               type="email"
               name="email"
               className="contact__form-input"
-              placeholder="insert your Email"
+              placeholder="Email"
             />
           </div>
           <div className="contact__form-div">
             <label htmlFor="" className="contact__form-tag">
-              Project
+              Message
             </label>
             <textarea
               name="project"
               cols="30"
               rows="10"
               className="contact__form-input"
-              placeholder="Write your project"
+              placeholder="Type here"
             ></textarea>
           </div>
           <button type="submit" className="button button--flex">

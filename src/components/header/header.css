@@ -17,7 +17,7 @@
 
 .nav__logo,
 .nav__toggle {
-  color: var(--title-color);
+  color: #fff;
   font-weight: var(--font-medium);
   
 }
@@ -31,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   font-size: var(--small-font-size);
-  color: var(--title-color);
+  color: #fff;
   font-weight: var(--font-medium);
   transition: 0.3s;
 }
@@ -46,7 +46,8 @@
   color: gray;
 }
 .nav__link:hover {
-  color: var(--title-color-dark);
+    color:  var(--title-color);
+    
 }
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);

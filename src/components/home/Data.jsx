@@ -8,13 +8,14 @@ const Data = () => {
        
       </h1>
 
-      <h3 className="home__subtitle">Software Engineer</h3>
-      <p className="home__description">
-        I'm very passionate, and dedicated to web application solutions. I am open to remote work or onsite in Austin, Texas.
+      <h3 className="home__subtitle">ASP.NET Web API Developer</h3>
+          <p className="home__description">
+           I am a recent Software Engineering graduate. I started building user interfaces but later developed a passion for building robust APIs and swiched my majors concentration to C# and Azure.
+            
       </p>
 
       <a href="#contact" className="button button--flex">
-        Buy me a coffee
+        Available for work
         <svg
           className="button__icon"
           xmlns="http://www.w3.org/2000/svg"

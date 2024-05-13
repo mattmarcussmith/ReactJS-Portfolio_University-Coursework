@@ -6,24 +6,18 @@ export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "E-commerce app",
-      category: "frontend",
-      demoLink: "https://ms-react-admin-dashboard.vercel.app/",
+      title: "",
+      category: "Web API",
+      demoLink: "",
     },
     {
       id: 2,
       image: Work2,
-      title: "Stock Exchange coming soon...",
-      category: "fullstack",
+      title: "Diagrams",
+      category: "Software Modeling",
       demoLink: "",
     },
-    {
-      id: 3,
-      image: Work3,
-      title: "Concepts coming soon..",
-      category: "design",
-      demoLink: "",
-    },
+   
   ];
 export const projectNav = [
     {
@@ -31,12 +25,10 @@ export const projectNav = [
 
     },
     {
-        name: 'frontend',
+        name: 'Web API',
     },
+   
     {
-        name: 'fullstack',
-    },
-    {
-        name: 'design',
+        name: 'Software Modeling',
     },
 ];

@@ -28,24 +28,25 @@
     font-size: var(--smaller-font-size);
     background-color: var(--body-color);
   }
-  
-  .contact__form-input,
-  .contact__form-textarea {
+
+.contact__form-input,
+.contact__form-textarea {
     width: 100%;
     padding: 10px;
     border-radius: 0.75rem;
     border: 2px solid rgba(0,0,0,0.3);
     box-sizing: border-box;
     margin-bottom: 10px;
-    color: var(--text-color);
+    color: #fff;
+    background: var(--title-color);
     outline: none;
-  }
-  
-  .contact__form-input::placeholder,
-  .contact__form-textarea::placeholder {
-    color: #aaa;
-  
-  }
+}
+
+    .contact__form-input::placeholder,
+    .contact__form-textarea::placeholder {
+        color:  #fff;
+        
+    }
   
   .button--flex {
     width: 100%; /* Make the button take up the full width */

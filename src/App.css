@@ -10,9 +10,9 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --text-color: #fff;
+  --body-color: #070707;
+  --container-color: #000;
 
   /* Font & Typography */
   --body-font: "Poppins", sans-serif;
@@ -110,7 +110,7 @@ img {
 }
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: #fff;
 }
 
 .section__subtitle {
@@ -138,7 +138,7 @@ img {
 .button {
   display: inline-block;
   background-color: var(--title-color);
-  color: var(--container-color);
+  color: #fff;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);

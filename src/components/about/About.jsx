@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/about.jpg";
+
 import CV from "../../assets/mattsmithresume.pdf"
 import Info from "./info";
 
@@ -11,12 +11,11 @@ const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className="about__img" />
+           
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                    I am a Application Developer with a Bachelor of Science in Software Engineering. I have experience developing ReactJS / ASP.NET services for corporate clients. I have worked with Project Managers, Lead Software Engineers, Architects, Supervisors and Scrum Leads that are happy with my solutions carried out. 
-                </p>
+                 I experience developing APIs with seamless communication integration and robust error handling. I am proficient in implementing diverse Design Patterns to guarantee scalable and maintainable code structures. Additionally, I have hands-on experience in Azure deployment for efficient cloud integration.            </p>
 
                 <a download="" href={CV} className="button button--flex">Download CV
                 
