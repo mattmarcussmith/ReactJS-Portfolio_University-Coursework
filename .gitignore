@@ -21,3 +21,32 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Node.js dependencies
+/node_modules
+
+# Compiled files
+/build
+/dist
+
+# Visual Studio Code directory
+.vscode
+
+# Visual Studio directory
+.vs
+
+# macOS system files
+.DS_Store
+
+# Editor-specific files
+*.suo
+*.ntvs*
+*.njsproj.user
+*.sln.docstates
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.log
+*.lock
