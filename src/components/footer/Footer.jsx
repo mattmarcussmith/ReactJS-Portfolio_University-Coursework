@@ -33,14 +33,7 @@ const Footer = () => {
       >
         <i className="uil uil-github"></i>
       </a>
-      <a
-        href="https://leetcode.com/matthewmsmith/"
-        className="footer__social-link"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="uil uil-coffee"></i>
-      </a>
+  
         </div>
       </div>
       <span className="footer__copy">&#169; Matthew Smith. All rights reserved</span>

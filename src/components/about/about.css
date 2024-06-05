@@ -26,8 +26,10 @@ justify-content: center;
     text-align: center;
     padding: 1rem 1.25rem;
 }
-  
- 
+
+ .credential-wrapper {
+  padding-top: 1rem;
+ }
   .about__icon {
     font-size: 1.5rem;
     color: #fff;

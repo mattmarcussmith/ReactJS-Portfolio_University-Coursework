@@ -47,8 +47,10 @@
   top: 1rem;
   left: 0;
 }
-.home__descripion {
+.home__description {
     max-width: 400px;
+    padding-bottom: 1rem;
+
    
 }
 
@@ -60,8 +62,8 @@
   background-size: cover;
   order: 1;
   justify-self: center;
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 250px;
   animation: profile__animate 5s ease-in-out infinite 1s;
 }
 
