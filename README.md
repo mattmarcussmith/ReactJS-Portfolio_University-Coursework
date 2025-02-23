@@ -7,9 +7,6 @@ I built this Portfolio to showcase my educational background and experience in b
 * CSS
 * HTML
 * React
-
-## Visit here:
-https://mattsmithportfolio.com
    
 When the application launches, it should look like this.
    
